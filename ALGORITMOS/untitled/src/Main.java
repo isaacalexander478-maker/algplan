@@ -64,7 +64,7 @@ public class Main {
         scanner.close();
     }
 
-    // Helper para generar una copia limpia de los datos iniciales
+    
     private static List<Proceso> clonarLista(List<Proceso> original) {
         List<Proceso> copia = new ArrayList<>();
         for (Proceso p : original) {
